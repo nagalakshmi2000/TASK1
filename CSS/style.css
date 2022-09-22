@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+.head{
+    background-image: url("/IMAGES/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.nav {
+    display: flex;
+     justify-content: space-between; 
+}
+.nav p{ 
+    padding: 1em 3em;
+}
+.create{
+    padding:10em 10em;
+} 
+.create p{
+    padding: 10px 0px;
+    color: white;
+}
+.create h1{
+ color: white;
+ font-size: 3em;
+}
+.pic img{
+    width:100%;
+    height: 80px;
+    border-radius: 50%;
+}
+.pic{
+    width:20%;
+}
+.pic img{
+    margin:1.5em 6.5em;
+}
+.data {
+   font-size: 1em;
+   padding: 10px;
+}
+.pixel{
+    margin-left: 50px;
+}
+.data p{
+    width:85%;
+    text-align: center;
+}
+.data h5{
+    padding-bottom:10px ;
+}
+.cards{
+    display: flex;
+    margin: 0px 40px;
+    gap: 2%;
+    position: absolute;
+    top:90%;
+}
+.card{
+    width:24%;
+    background-color:#FEFEFE;
+}
+.smart{
+    margin-top: 15%;
+    position: relative;
+} 
+.smart-image img{  
+    width:100%;
+}
+.part1{
+    width:100%;
+}
+.part1,.part2{
+    margin: 5em 0em 3em 8em;
+}
+.part2{
+    display: flex;
+    width:100%;
+}
+.part2 p,.part1 p{
+   width:80%;
+}
+.part2 p{
+    font-style: italic;
+}
+.hands{
+    width:40%;
+    position: absolute;
+    top: 3em;
+    right: 10em;
+}
+.digitalexperiences{
+    display: flex;
+}
+.unique,.uniquedata{
+    width: 100%;
+}
+.unique img{
+    width: 100%;
+    height: 100%;
+}
+.uniquedata{
+    color: #5A5A5A;
+    padding: 2em 2em 2em 1em;
+}
+.imp{
+    color: #8B2D42;
+    padding:10px 15px 10px 5px ;
+}
+.para{
+   font-size: 1.3em;
+   width:80%;
+   color: #D3D3D3;
+   padding-bottom: 15px;
+}
+.lorem{
+    font-style: italic;
+}
+.more{
+    color: #8B2D42;
+    padding:15px 0px 15px 1px ;
+}
+
+
