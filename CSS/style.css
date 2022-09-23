@@ -1,7 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 .head{
     background-image: url("/IMAGES/bg1.jpg");
@@ -37,17 +37,17 @@
     width:20%;
 }
 .pic img{
-    margin:1.5em 6.5em;
+    margin:1em 6.5em;
 }
 .data {
    font-size: 1em;
-   padding: 10px;
+   padding: 1.5em;
 }
 .pixel{
     margin-left: 50px;
 }
 .data p{
-    width:85%;
+    width:100%;
     text-align: center;
 }
 .data h5{
@@ -62,7 +62,8 @@
 }
 .card{
     width:24%;
-    background-color:#FEFEFE;
+    background-color:#FAFAFA;
+    padding-bottom: 4%;
 }
 .smart{
     margin-top: 15%;
@@ -124,5 +125,153 @@
     color: #8B2D42;
     padding:15px 0px 15px 1px ;
 }
+.creative{
+    background-color:#FEFEFE ;
+}
+.ideas{
+  text-align: center;
+  margin-top: 4em;
+}
+.ideas p{
+    padding: 8px;
+    color:#B28C9A ;
+}
+.row1 img,.row2 img{
+    width: 100%;
+}
+.row1,.row2{
+    display: flex;
+    gap:2%;
+}
+.row1{
+    margin: 4em 4em 0 4em ;
+}
+.row2{
+    margin: 2em 4em 0em 4em ;
+}
+.features {
+    margin:12% 0% 5% 4.5%;
+    font-size: 1.2em;
+    width:50%;
+}
+.features ol li{
+    font-style: italic;
+    padding: 5px 0px;
+    margin-left: 12px;
+    /* font-size: 15px; */
+}
+.features p{
+    color:#B28C9A ;
+    padding:10px 0px;
+}
+.features h3{
+    padding:10px 0px;
+    font-size: 1em;
+}
+.product img{
+    width: 100%;
+}
+.product{
+    width: 50%;
+    margin-top: 5em;
+}
+.values{
+    display: flex;
+    margin-bottom: 4em;
+}
+.design-image{
+    display: flex;
+    background-color:#C2C3BD;
+    height: 78vh;
+}
+.best{
+    margin: 6em 3em 5em 1em   ;
+    display: flex;
+    width:60%;
+    font-style: italic;
+    padding-left: 3.5em;
+}
+.responsibility{
+    margin-left:5em;
+} 
+.awesone{
+    width: 50%;
+}
+.design p{
+    color:#AC6878 ;
+    padding:0px 0px  8px 10px;
+    margin: 4em 0px 6px 4em;
+}
+.design h3{
+    width:20%;
+    padding:0px 0px  8px 10px;
+    margin: 0em 0px 6px 3.2em;
+}
+.tried img{
+    width:100%;
+}
+.tried{
+    width: 50%;
+}
+.proimage img{
+    width: 100%;
+}
+.products{
+    position: relative;
+}
+.provide {
+    position: absolute;
+    width: 30%;
+    border: 1px solid white;
+    top: 40%;
+    left: 35%;
+    padding: 3%;
+}
+.provide p{
+    color: #782634;
+    text-align: center;
+}
+.provide h1{
+    color:white;
+    padding: 20px 0px;
+    font-size: 2em;
+    text-align: center;
+}
+.map{
+    background-color:  #212121;
+    display: flex;
+}
+.contact{
+    color:white;
+    width: 60%;
+}
+.mapsec{
+   margin: 4% ;
+}
 
 
+
+
+@media (min-width:1400px){
+    .design-image{
+        height: 90vh;
+    }
+    .best p{
+        width:80%;
+    }
+    .best{
+        margin-top: 15em;
+    }
+    .design{
+        margin-top: 2em;
+    }
+    .uniquedata p{
+        width: 100%;
+        padding:2%;
+        font-size: 1.5em;
+    }
+    .uniquedata h2{
+        width:50%;
+        padding-left: 6px;
+    }
+}
