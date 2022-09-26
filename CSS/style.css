@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding: 0px;
     margin: 0px;
-    /* text-decoration: none; */
+    font-family:'Roboto',sans-serif ;
 }
 .head{
     background-image: url("/IMAGES/bg1.jpg");
@@ -29,41 +30,38 @@
  font-size: 3em;
 }
 .pic img{
-    width:100%;
-    height: 80px;
+    width:32%;
     border-radius: 50%;
-}
-.pic{
-    width:20%;
-}
-.pic img{
-    margin:1em 6.5em;
+    margin-left: 32%;
+    /* padding-top: 5%; */
 }
 .data {
    font-size: 1em;
-   padding: 1.5em;
+   padding-top: 1em;
+   text-align: center;
 }
 .pixel{
     margin-left: 50px;
 }
 .data p{
-    width:100%;
-    text-align: center;
-}
+    width:80%;
+    margin:0% 1%  0% 10%;
+} 
 .data h5{
     padding-bottom:10px ;
-}
+    margin:0% 20% ;
+} 
 .cards{
     display: flex;
-    margin: 0px 40px;
-    gap: 2%;
+    margin: 0px 4.5em;
+    gap: 5%;
     position: absolute;
     top:90%;
 }
 .card{
-    width:24%;
+    width:22%;
     background-color:#FAFAFA;
-    padding-bottom: 4%;
+    padding:  2% 0% 6% 0%;   
 }
 .smart{
     margin-top: 15%;
@@ -73,17 +71,31 @@
     width:100%;
 }
 .part1{
-    width:100%;
+    width:90%;
+    background-color: #F0F0F0;
+    padding: 5%;
 }
-.part1,.part2{
+.part1{
     margin: 5em 0em 3em 8em;
 }
 .part2{
     display: flex;
     width:100%;
+    margin-left: 24%;
+}
+.part2 h4{
+   margin-top: 40%;
+}
+.sol,.clean{
+    background-color:#F0F0F0 ;
+    width: 46%;
+    padding: 0px 0px 2em 1em;
+}
+.clean{
+    margin-left: 3%;
 }
 .part2 p,.part1 p{
-   width:80%;
+   width:88%;
 }
 .part2 p{
     font-style: italic;
@@ -97,7 +109,7 @@
 .digitalexperiences{
     display: flex;
 }
-.unique,.uniquedata{
+.unique{
     width: 100%;
 }
 .unique img{
@@ -105,6 +117,7 @@
     height: 100%;
 }
 .uniquedata{
+    width: 100%;
     color: #5A5A5A;
     padding: 2em 2em 2em 1em;
 }
@@ -185,7 +198,7 @@
     height: 78vh;
 }
 .best{
-    margin: 6em 3em 5em 1em   ;
+    margin: 4em 3em 0em 1em   ;
     display: flex;
     width:60%;
     font-style: italic;
@@ -196,6 +209,9 @@
 } 
 .awesone{
     width: 50%;
+}
+.quality h4,.responsibility h4{
+  padding-bottom: 1em;
 }
 .design p{
     color:#AC6878 ;
@@ -234,7 +250,7 @@
 .provide h1{
     color:white;
     padding: 20px 0px;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
 }
 .map{
@@ -244,15 +260,38 @@
 .contact{
     color:white;
     width: 60%;
+    margin:auto;
+    margin-left:10%;
+}
+.contact h4,.contact p{
+    padding:10px 0px;
+}
+.contact p{
+    font-size: small;
+    color: #989797;
+}
+.contact h6{
+    color: rgb(94, 37, 37);
 }
 .mapsec{
    margin: 4% ;
 }
+footer{
+    background-color:#313131;
+    display: flex;
+    color: #999999;
+    justify-content: space-evenly;
+    padding: 4em 1.5em;
+}
+.col h4{
+   padding: 1.3em;
+
+}
 
 
 
 
-@media (min-width:1400px){
+ @media (min-width:1400px){
     .design-image{
         height: 90vh;
     }
@@ -274,4 +313,11 @@
         width:50%;
         padding-left: 6px;
     }
-}
+    .part2{
+        margin-left: 16.5%;
+    }
+    .sol,.clean{
+        width: 50%;
+        padding: 5%;
+    }
+} 
