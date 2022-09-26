@@ -81,15 +81,15 @@
 .part2{
     display: flex;
     width:100%;
-    margin-left: 24%;
+    margin-left: 16%;
 }
 .part2 h4{
    margin-top: 40%;
 }
 .sol,.clean{
     background-color:#F0F0F0 ;
-    width: 46%;
-    padding: 0px 0px 2em 1em;
+    width: 50%;
+    padding: 0px 0px 2em 0em;
 }
 .clean{
     margin-left: 3%;
@@ -138,9 +138,7 @@
     color: #8B2D42;
     padding:15px 0px 15px 1px ;
 }
-.creative{
-    background-color:#FEFEFE ;
-}
+
 .ideas{
   text-align: center;
   margin-top: 4em;
