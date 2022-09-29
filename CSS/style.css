@@ -1,15 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 *{
     padding: 0px;
     margin: 0px;
-    font-family:'Roboto',sans-serif ;
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-family: 'Roboto', sans-serif;
 }
 .head{
     background-image: url("/IMAGES/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     position: relative;
 }
 .nav {
@@ -17,24 +18,30 @@
      justify-content: space-between; 
 }
 .nav p{ 
-    padding: 1em 3em;
+    padding: 2em 4em;
+    color: white;
+    font-size: 1.7em;
 }
 .create{
     padding:10em 10em;
 } 
 .create p{
-    padding: 10px 0px;
+    padding: 3% 0% 2% 5%;
     color: white;
+    font-size: 1.4em;
 }
 .create h1{
  color: white;
- font-size: 3em;
+ padding: 0% 0% 0.5% 5%;
+ font-size: 4.5em;
+}
+.pic{
+    width: 30%;
+    margin: auto;
 }
 .pic img{
-    width:32%;
+    width:100%;
     border-radius: 50%;
-    margin-left: 32%;
-    /* padding-top: 5%; */
 }
 .data {
    font-size: 1em;
@@ -45,39 +52,45 @@
     margin-left: 50px;
 }
 .data p{
-    width:80%;
+    width:78%;
+    font-style: italic;
     margin:0% 1%  0% 10%;
+    color: grey;
+    line-height: 1.5em;
 } 
 .data h5{
-    padding-bottom:10px ;
-    margin:0% 20% ;
+    padding-bottom:1em ;
+    margin:0% 10% ;
+    font-size: 1.3em;
+    font-weight: bolder;
 } 
 .cards{
     display: flex;
-    margin: 0px 4.5em;
+    margin: 0px 5em;
     gap: 5%;
     position: absolute;
-    top:90%;
+    top:110vh;
 }
 .card{
-    width:22%;
+    border: 1px solid rgb(224, 223, 223);
+    width:23%;
     background-color:#FAFAFA;
-    padding:  2% 0% 6% 0%;   
+    padding:  2% 0% 6% 0%;
+    text-align: center;   
 }
 .smart{
-    margin-top: 15%;
+    margin-top: 22%;
     position: relative;
 } 
 .smart-image img{  
     width:100%;
+    height:120vh;
 }
 .part1{
     width:85%;
     background-color: #F0F0F0;
     padding: 5%;
-}
-.part1{
-    margin: 5em 0em 3em 21%;
+    margin: 5em 0em 2em 21%;
 }
 .part2{
     display: flex;
@@ -85,8 +98,8 @@
     margin-left: 21%;
 }
 .part2 h4{
-   margin-top: 30%;
-   /* padding: 3% 5%; */
+    font-size: 1.2em;
+    margin: 45% 0% 3% 0%;
 }
 .sol,.clean{
     background-color:#F0F0F0 ;
@@ -96,17 +109,33 @@
 .clean{
     margin-left: 3%;
 }
-.part2 p,.part1 p{
-   width:88%;
+.part1 h5{
+    color:palevioletred;
+    font-size: 1.2em;
+    padding:0.8em 0  1em 0;
 }
+.part1 h4{
+    font-size: 1.5em;
+    padding-bottom: 2em;
+}
+.part1 p{
+    width:88%;
+    font-size: 1.2em;
+    padding-bottom: 2em;
+    color: #5A5A5A;
+    line-height: 1.5em;
+ }
 .part2 p{
     font-style: italic;
-    padding: 5% 0px;
+    width:88%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #5A5A5A;
 }
 .hands{
     width:45%;
     position: absolute;
-    top: 3em;
+    top: 0.5em;
     right: 10em;
 }
 .digitalexperiences{
@@ -123,23 +152,27 @@
     width: 100%;
     color: #5A5A5A;
     padding: 2em 2em 2em 1em;
+    background-color: #1E1E1E;
 }
 .imp{
     color: #8B2D42;
-    padding:10px 15px 10px 2px ;
+    font-size: x-large;
+    padding:10px 15px 10px 0px ;
 }
 .para{
    font-size: 1.3em;
    width:80%;
-   color: #D3D3D3;
-   padding-bottom: 15px;
+   padding: 0.5em 0em 1.3em 0em;
+   color:#FEFEFE;
 }
 .lorem{
     font-style: italic;
+    color:grey;
+    line-height: 1.7em;
 }
 .more{
     color: #8B2D42;
-    padding:15px 0px 15px 1px ;
+    padding:2em 0px 1em 1px ;
 }
 
 .ideas{
@@ -147,8 +180,10 @@
   margin-top: 4em;
 }
 .ideas p{
-    padding: 8px;
-    color:#B28C9A ;
+    padding: 1em;
+    color:palevioletred ;
+    font-size: x-large;
+    font-weight: 600;
 }
 .row1 img,.row2 img{
     width: 100%;
@@ -171,16 +206,18 @@
 .features ol li{
     font-style: italic;
     padding: 5px 0px;
-    margin-left: 12px;
+    margin-left: 1em;
+    color:rgb(167, 167, 167);
     /* font-size: 15px; */
 }
 .features p{
-    color:#B28C9A ;
+    color:palevioletred ;
     padding:10px 0px;
+    font-weight: 600;
 }
 .features h3{
     padding:10px 0px;
-    font-size: 1em;
+    font-size: larger;
 }
 .product img{
     width: 100%;
@@ -200,10 +237,9 @@
 
 }
 .best{
-    margin: 4em 3em 0em 1em   ;
+    margin: 3em 3em 0em 1em   ;
     display: flex;
     width:60%;
-    font-style: italic;
     padding-left: 3.5em;
 }
 .responsibility{
@@ -215,16 +251,25 @@
 }
 .quality h4,.responsibility h4{
   padding-bottom: 1em;
+  font-size: larger;
+}
+.quality p, .responsibility p{
+    color:#5A5A5A;
+    line-height: 1.5em;
+    font-style: italic;
 }
 .design p{
     color:#AC6878 ;
+    font-weight: 600;
     padding:0px 0px  2% 2.5%;
-    margin: 2em 0px 6px 3em;
+    margin: 0.5em 0px 6px 2.5em;
+    font-size:large;
 }
 .design h3{
-    width:20%;
-    padding:0px 0px  8px 10px;
-    margin: 0em 0px 6px 3.2em;
+    font-size: xx-large;
+    padding:0px 0px  8px 1em;
+    margin: 0em 0px 6px 1em;
+    width: 40%;
 }
 .tried img{
     width:100%;
@@ -241,20 +286,22 @@
 }
 .provide {
     position: absolute;
-    width: 30%;
+    width: 60%;
     border: 1px solid white;
-    top: 40%;
-    left: 35%;
-    padding: 3%;
+    top: 20%;
+    left: 18%;
+    padding: 5%;
 }
 .provide p{
-    color: #782634;
+    color: palevioletred;
     text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 .provide h1{
     color:white;
     padding: 20px 0px;
-    font-size: 1.8em;
+    font-size: 3.5em;
     text-align: center;
 }
 .map{
@@ -267,15 +314,18 @@
     margin:auto;
     margin-left:10%;
 }
-.contact h4,.contact p{
-    padding:10px 0px;
+.contact h3{
+  font-size:1.5em;
+  padding-bottom: 0.5em;
 }
 .contact p{
-    font-size: small;
-    color: #989797;
+    color: white;
+    font-size: medium;
+    padding:1em 0px;
 }
-.contact h6{
-    color: rgb(94, 37, 37);
+.contact h4{
+    color:burlywood;
+    padding-top: 0.5em;
 }
 .mapsec{
    margin: 4% ;
@@ -284,12 +334,14 @@ footer{
     width: 100%;
     background-color:#313131;
     display: flex;
-    color: #999999;
+    color: #d5d5d5;
     justify-content: space-around;
     padding: 4em 0em;
+    font-size: larger;
 }
 .col h4{
    padding: 1em;
+   font-size: larger;
 }
 
 
