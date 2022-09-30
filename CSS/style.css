@@ -26,13 +26,13 @@
     padding:10em 10em;
 } 
 .create p{
-    padding: 3% 0% 2% 5%;
-    color: white;
+    padding: 3% 0% 2% 4%;
+    color: rgb(237, 236, 233);
     font-size: 1.4em;
 }
 .create h1{
- color: white;
- padding: 0% 0% 0.5% 5%;
+ color:  rgb(237, 237, 237);
+ padding: 0% 0% 0.5% 3.5%;
  font-size: 4.5em;
 }
 .pic{
@@ -233,14 +233,17 @@
 .design-image{
     display: flex;
     background-color:#C2C3BD;
-    height: 78vh;
+    height: 100%;
 
 }
-.best{
-    margin: 3em 3em 0em 1em   ;
+.best,.best1{
+    margin: 3em 1em 0em 1em   ;
     display: flex;
-    width:60%;
-    padding-left: 3.5em;
+    width:80%;
+    padding-left: 3em;
+}
+.best1,.best{
+    margin-top: 11%;
 }
 .responsibility{
     margin-left:5em;
@@ -255,15 +258,15 @@
 }
 .quality p, .responsibility p{
     color:#5A5A5A;
-    line-height: 1.5em;
+    line-height: 1.8em;
     font-style: italic;
 }
 .design p{
     color:#AC6878 ;
     font-weight: 600;
-    padding:0px 0px  2% 2.5%;
+    padding:0px 0px  2% 1.8%;
     margin: 0.5em 0px 6px 2.5em;
-    font-size:large;
+    font-size:1.4em;
 }
 .design h3{
     font-size: xx-large;
@@ -280,6 +283,7 @@
 }
 .proimage img{
     width: 100%;
+    opacity: 0.8;
 }
 .products{
     position: relative;
