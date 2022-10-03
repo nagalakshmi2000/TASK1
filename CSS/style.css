@@ -401,4 +401,10 @@ footer{
 .row1 img,.row2 img{
     margin: 5% 0%;
 }
+.features{
+    font-size: x-small;
+}
+.product img{
+    margin-top: 8%;
+}
 }
