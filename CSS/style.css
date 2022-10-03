@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .head{
-    background-image: url("/IMAGES/bg1.jpg");
+    background-image:linear-gradient(#0000004c,#0000008c) ,url("/IMAGES/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 120vh;
@@ -283,7 +283,7 @@
 }
 .proimage img{
     width: 100%;
-    opacity: 0.8;
+    filter:brightness(60%);
 }
 .products{
     position: relative;
@@ -297,7 +297,7 @@
     padding: 5%;
 }
 .provide p{
-    color: palevioletred;
+    color: crimson;
     text-align: center;
     font-size: 1.4em;
     font-weight: bold;
