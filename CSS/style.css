@@ -110,7 +110,7 @@
     margin-left: 3%;
 }
 .part1 h5{
-    color:palevioletred;
+    color:crimson;
     font-size: 1.2em;
     padding:0.8em 0  1em 0;
 }
@@ -155,7 +155,7 @@
     background-color: #1E1E1E;
 }
 .imp{
-    color: #8B2D42;
+    color: crimson;
     font-size: x-large;
     padding:10px 15px 10px 0px ;
 }
@@ -171,7 +171,7 @@
     line-height: 1.7em;
 }
 .more{
-    color: #8B2D42;
+    color: crimson;
     padding:2em 0px 1em 1px ;
 }
 
@@ -181,7 +181,7 @@
 }
 .ideas p{
     padding: 1em;
-    color:palevioletred ;
+    color:crimson;
     font-size: x-large;
     font-weight: 600;
 }
@@ -211,7 +211,7 @@
     /* font-size: 15px; */
 }
 .features p{
-    color:palevioletred ;
+    color:crimson ;
     padding:10px 0px;
     font-weight: 600;
 }
@@ -262,7 +262,7 @@
     font-style: italic;
 }
 .design p{
-    color:#AC6878 ;
+    color:crimson ;
     font-weight: 600;
     padding:0px 0px  2% 1.8%;
     margin: 0.5em 0px 6px 2.5em;
